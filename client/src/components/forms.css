@@ -1,0 +1,95 @@
+.form-group {
+	position: absolute;
+	text-align: center;
+	width: 600px;
+	height: 600px;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+.form-background {
+	padding: 42px 0;
+	background: #042A2B;
+}
+.form-controls {
+	background: #fcfcfc;
+	color: #48E5C2;
+	padding: 67px 150px;
+	box-shadow: 0px 4px 40px #000000;
+	border-radius: 8px;
+	margin-top: 111px;
+}
+.user-badge {
+	display: inline-block;
+	border: 1px solid #042A2B;
+	border-radius: 4px;
+    padding: 0 10px;
+    margin: 4px auto 18px;
+}
+.user-badge > span {
+	line-height: 26px;
+	font-weight: bold;
+	color: #042A2B;
+}
+.ant-alert-error.ant-alert-no-icon {
+	margin: 13px auto;
+	max-width: 200px;
+	padding: 4px;
+	border: 0;
+	background: #FF6347;
+}
+span.ant-alert-message {
+	color: #FCFCFC;
+	font-weight: bold;
+}
+.empty {
+	background: #fcfcfc;
+	height: 39px;
+}
+.ant-form-item-control .login-form {
+	max-width: 300px;
+}
+.ant-form-item-control .login-form-forgot {
+	font-size: 12pt;
+	font-weight: bold;
+	float: left;
+	margin-left: 10px;
+}
+.ant-form-item-control .login-form-button {
+	width: 80px;
+	float: right;
+}
+h2#my-h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #48E5C2;
+}
+input {
+	font-weight: bold;
+	border: 0;
+	box-shadow: inset 0px 0px 13px rgba(4, 42, 43, 0.06);
+}
+*:focus {
+	outline: none;
+}
+input::placeholder {
+	color: #e1e1e1;
+	font-weight: bold;
+}
+.ant-form-explain {
+	margin: 0;
+	padding: 5px 8px 10px;
+	text-align: left;
+}
+@media only screen and (max-width: 600px) {
+	.form-group {
+		position: relative;
+		width: 90%;
+		margin: 21px auto;
+	}
+	.form-controls {
+		padding: 5%;
+	}
+}

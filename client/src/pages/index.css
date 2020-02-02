@@ -1,0 +1,62 @@
+.container {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	background: url('../images/wallpaper.jpg') top center no-repeat #042A2B;
+	background-size: cover;
+	overflow-wrap: break-word;
+}
+
+.main {
+	background: #042A2B;
+	opacity: 0.94;
+	width: 100%;
+	height: 100%;
+}
+
+.centered {
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	height: 400px;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.img {
+	position: relative;
+	width: 180px;
+	margin: auto;
+	display: block;
+}
+
+.btns {
+	width: 260px;
+	height: 50px;
+	margin: 42px auto;
+}
+
+.big-text {
+	font-family: 'Trocchi', serif;	
+	font-size: 42px;
+	color: #DCF763;
+}
+.ant-btn {
+    margin: 5px;
+}
+.ant-btn-primary {
+    background: #48E5C2;
+    color: #FCFCFC;
+    border: 0;
+}
+
+.ant-btn:hover {
+    background: #42D1B1;
+    color: #FCFCFC;
+    cursor: pointer;
+}

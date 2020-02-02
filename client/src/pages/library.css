@@ -1,0 +1,46 @@
+.library-wallpaper {
+    display: block;
+    position: relative;
+    height: 55.7vw;
+    width: 100%;
+}
+.library-wallpaper::after {
+    content: "";
+    background: url('../images/home.jpg') top center no-repeat #042A2B;
+    background-size: contain;
+    opacity: .6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+.over-wallpaper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(4,42,43,1) 0%, rgba(4,42,43,.2) 50%, rgba(4,42,43,1) 100%);;
+}
+.over-wallpaper > h1 {
+    font-size: 7vw;
+    text-shadow: .3vw .3vw 0 #031F20;
+    /* opacity: .8; */
+}
+@media only screen and (max-width: 420px) {
+}
+/*
+.ant-pagination-item, .ant-pagination-next, .ant-pagination-prev {
+    border-color: #2E927C;
+}
+.ant-pagination-item-active {
+    border-color: #DCF763;
+}
+.ant-pagination-item:hover, .ant-pagination-next:hover, .ant-pagination-prev:hover {
+    border-color: #FAFAFA;
+}*/

@@ -1,0 +1,28 @@
+*:focus {
+	outline: none;
+}
+.ant-input-search > .ant-input {
+	background: #1A3D3E;
+	border: 0;
+	padding: 0 8px;
+	height: 42px;
+	color: #DCF763;
+	font-size: .9rem;
+	font-weight: normal;
+	letter-spacing: .03rem;
+}
+.ant-input-search > .ant-input::placeholder {
+	color: #5F7778;
+	font-size: 1rem;
+	font-weight: normal;
+}
+.ant-input-search > input[type="text"]:focus {
+	border: 1px solid #DCF763 !important;
+	box-shadow: none;
+}
+.ant-input-search > .ant-input:hover {
+	border-color:#DCF763 !important;
+}
+.ant-input-search-icon > svg {
+	fill: #DCF763 !important;
+}
