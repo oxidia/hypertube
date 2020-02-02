@@ -1,0 +1,14 @@
+{
+  "env": {
+    "JWT_KEY": "",
+    "DATABASE_URL": "",
+    "EMAIL": "",
+    "EMAIL_PASSWORD": "",
+    "GOOGLE_CLIENT_ID": "",
+    "GOOGLE_CLIENT_SECRET": "",
+    "FORTYTWO_CLIENT_ID": "",
+    "FORTYTWO_CLIENT_SECRET": "",
+    "FACEBOOK_APP_ID": "",
+    "FACEBOOK_APP_SECRET": ""
+  }
+}
