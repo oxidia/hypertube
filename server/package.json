@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@hapi/joi": "^16.1.8",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "bignum": "^0.13.1",
     "colors": "^1.4.0",
